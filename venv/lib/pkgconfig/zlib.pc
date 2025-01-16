@@ -1,0 +1,13 @@
+prefix=/Users/charushila/Desktop/GenAI/ANN /venv
+exec_prefix=/Users/charushila/Desktop/GenAI/ANN /venv
+libdir=/Users/charushila/Desktop/GenAI/ANN /venv/lib
+sharedlibdir=/Users/charushila/Desktop/GenAI/ANN /venv/lib
+includedir=/Users/charushila/Desktop/GenAI/ANN /venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
